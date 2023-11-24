@@ -6,7 +6,7 @@
 
 ```shell
 
-docker run -it -v ~/proj/:/root/user/ --name ubuntu2  lingdor/lunarvim_cn
+docker run -it -v ~/proj/:/root/proj/ --name ubuntu2  lingdor/lunarvim_cn
 
 ``` 
 
