@@ -13,7 +13,7 @@ RUN cd /usr/local/&& git clone https://github.com/neovim/neovim.git
 RUN cd /usr/local/neovim && make CMAKE_BUILD_TYPE=RelWithDebInfo&&make install
 RUN echo "\nexport PATH=/root/.local/bin:$PATH" >> /root/.profile
 
-
+#lunnar install todo
 
 
 
